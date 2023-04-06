@@ -1,0 +1,90 @@
+.contact-section {
+
+    background-color: #2eca6a;
+    margin-bottom: 54rem;
+    padding-left: 1rem;
+    padding-right: 1rem;;
+}
+
+@media screen and (max-width:768px) {
+
+    .contact-section {
+
+        padding-top:10rem;
+        margin-bottom: 74rem !important;
+
+    }
+
+}
+
+.contact-info {
+
+    padding: 2rem 0 10rem 0;
+    color:#FFFFFF;
+
+}
+
+.contact-c {
+
+    color: #000000;
+
+}
+
+.contact-form  {
+
+    background-color: #FFFFFF;
+    padding: 2rem 2rem;
+    position: absolute;
+    top:-100px;
+    left:0;
+    right:0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+.contact-form_input{
+
+    border-radius: 5px;
+    padding: 0.5rem;
+    border:1px solid rgba(149, 157, 165, 0.2);
+
+}
+.contact-form_textarea   {
+
+    border-radius: 0;
+    padding: 1.2rem 1rem;
+    border:1px solid rgba(149, 157, 165, 0.2);
+    height: 93.5%;
+
+}
+
+input:focus, textarea:focus {
+
+    border:1px solid #000000;
+    outline: none;
+
+}
+
+
+.contact-form_property {
+
+    padding: 16px;
+    border: 1px solid #000000;
+    border-style: dashed;
+    color:#000000;
+
+}
+
+.send-button {
+
+    background-color: #2eca6a;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.send-button:hover {
+
+    background-color: #2eca6a;
+    color:#FFFFFF
+
+}
